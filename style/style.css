@@ -16,6 +16,10 @@
     font-size: 0.8em;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .upper-case{
     /*transform all letters in capitol letter */
     text-transform: uppercase;
@@ -73,7 +77,7 @@ ul {
 .discount{
     position: absolute;
     top: 80%;
-    padding-left: 5px;
+
 }
 
 .col img{
@@ -105,4 +109,13 @@ header{
 main{
     margin: 20px auto;
     max-width: 1200px;
+}
+
+.heart{
+    background: #ffffff;
+    padding: 7px 7px;
+    width: 30px;
+    position: absolute;
+    top: 8%;
+    right: 0%;
 }
