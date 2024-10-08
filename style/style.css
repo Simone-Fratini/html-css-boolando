@@ -21,8 +21,12 @@
 }
 
 .upper-case{
-    /*transform all letters in capitol letter */
+
     text-transform: uppercase;
+}
+
+.bg-black{
+    background-color: var(--color-black);
 }
 
 .cl-white{
@@ -118,4 +122,13 @@ main{
     position: absolute;
     top: 8%;
     right: 0%;
+}
+
+footer{
+    background-color: var(--color-black);
+    height: 100px;
+}
+
+.d-column{
+    flex-direction: column;
 }
