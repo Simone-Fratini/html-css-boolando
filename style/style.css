@@ -37,6 +37,20 @@ ul {
     display: flex;
 }
 
+.row {
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.col {
+    width: calc((100% - 10px) / 3);
+    position: relative;
+}
+
+.col img{
+    width: 100%;
+}
+
 header{
     height: 50px;
 }
