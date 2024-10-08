@@ -12,6 +12,10 @@
     --color-light-grey: #c9cdcf;
 }
 
+.cl-white{
+    color: #fff;
+}
+
 .debug {
     border: 1px solid red;
 }
@@ -46,8 +50,8 @@ header{
     align-items: center;
 }
 
-#nav-category li{
-
+.gap-10{
+    gap: 10px;
 }
 
 .logo img{
