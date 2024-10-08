@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {	
+    --color-orange: #ff6900;
+    --color-red: #ff0000;
+    --color-green: #008000;
+    --color-black: #1a1a1a;
+    --color-light-grey: #c9cdcf;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+ul {
+    list-style: none;
+}
+
+.max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-orange {
+    background-color: var(--color-orange);
+}
+
+.d-flex {
+    display: flex;
+}
+
+header{
+    height: 50px;
+}
+
+.width100{
+    width: 100%;
+}
+
+.content-center {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-category li{
+
+}
+
+.logo img{
+    width: 120px;
+}
