@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boolando</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style/firstproduct.css">
 
 </head>
-<body class="d">
+
+<body>
     <header class="bg-orange debug d-flex">
         <div class="max-width d-flex content-center width100">
 
@@ -17,7 +26,7 @@
                     <li><a href="#">Donna</a></li>
                     <li><a href="#">Uomo</a></li>
                     <li><a href="#">Bambini</a></li>
-                    
+
                 </ul>
             </nav>
 
@@ -27,9 +36,15 @@
 
             <nav>
                 <ul class="d-flex gap-10">
-                    <a href="#"><li class="cl-white"><i class="fa-regular fa-user"></i></li></a>
-                    <a href="#"><li class="cl-white"><i class="fa-regular fa-heart"></i></li></a>
-                    <a href="#"><li class="cl-white"></i><i class="fa-solid fa-bag-shopping"></i></li></a>
+                    <a href="#">
+                        <li class="cl-white"><i class="fa-regular fa-user"></i></li>
+                    </a>
+                    <a href="#">
+                        <li class="cl-white"><i class="fa-regular fa-heart"></i></li>
+                    </a>
+                    <a href="#">
+                        <li class="cl-white"></i><i class="fa-solid fa-bag-shopping"></i></li>
+                    </a>
                 </ul>
             </nav>
         </div>
@@ -38,23 +53,42 @@
 
 
     <main>
-        <div class="container d-flex content-center">
-            <div>
-                <div class="d-flex">
-                    <div class="d-col miniature">
-                        <div><a href="img/1b.webp"></a></div>
-                        <div>ciao2</div>
-                        <div>ciao3</div>
-                    </div>
+        <div class="container d-flex justify-between gap-10 paddingT-25">
 
-                    <div class="full-image">
-                        <img src="img/1.webp" alt="">
-                    </div>
-    
+            <div class="d-flex gap-10">
+                <div class="d-col miniature">
+                    <div class="miniature1"><img src="img/1.webp" alt="1"></div>
+                    <div class="miniature2"><img src="img/1b.webp" alt="2"></div>
+                    <div class="miniature3"><img src="img/1c.webp" alt="3"></div>
+                    <div class="miniature4"><img src="img/1d.webp" alt="4"></div>
                 </div>
-                
+
+                <div class="full-image">
+                    <img class="zoom1" src="img/1.webp" alt="img1">
+                    <img class="zoom2 display-none" src="img/1.webp" alt="1">
+                    <img class="zoom3 display-none" src="img/1b.webp" alt="2">
+                    <img class="zoom4 display-none" src="img/1c.webp" alt="3">
+                    <img class="zoom5 display-none" src="img/1d.webp" alt="4">
+                </div>
+
+
+
             </div>
-            <div>ciao</div>
+            <div class="text-width">
+
+                <div>Levi's®</div>
+                <div class="roboto-bold">Print T-shirt - neutrals</div>
+                <div class="text-medium">29,95 € <span class="cl-light-grey text-small">VAT included</span></div>
+                <div class="paddingT-25 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque a sed vero autem at voluptatum dicta voluptatem non rem libero ipsa reprehenderit molestiae, illum impedit minus officiis eum perspiciatis numquam? Ullam, magni quia. Expedita facilis autem error beatae quasi quas optio voluptates magnam. Incidunt modi cupiditate soluta, in perspiciatis totam reprehenderit rem minima accusantium. Ipsam fuga voluptates quibusdam reiciendis qui quod nihil est provident molestias laboriosam saepe consequatur alias vero ducimus neque, nemo, perferendis, voluptatibus deserunt tempora consequuntur nam? Laudantium totam magnam obcaecati nemo veniam facilis sint iusto, asperiores velit explicabo recusandae, incidunt repellat earum tempora? Id, earum incidunt? Nulla eum, molestias beatae eos dolorem quod magnam praesentium delectus asperiores? Nulla est quaerat perspiciatis nam iusto atque voluptate magni reprehenderit nesciunt, nostrum ipsa voluptates assumenda corporis, accusamus ab, perferendis necessitatibus et earum dolorum ut architecto molestias! Nobis tempora et facilis rerum odio? Laborum consectetur ut unde quaerat suscipit vitae nostrum?
+                </div>
+                <div class="d-flex gap-40 justify-center paddingT-25">
+                    <div class="buy"><a href="#">ADD TO CART</a></div>
+                    <div class="buy"><a href="#">BUY</a></div>
+                </div>
+
+
+
+            </div>
         </div>
     </main>
 
@@ -97,6 +131,7 @@
 
         </div>
     </footer>
-    
+
 </body>
+
 </html>
