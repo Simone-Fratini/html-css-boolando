@@ -110,6 +110,17 @@ header{
 main{
     margin: 20px auto;
     max-width: 1200px;
+    min-height: 100vh;
+}
+
+.miniature img{
+    width: 200px;
+    height: auto;
+}
+
+.full-image img{
+    width: 400px;
+    height: auto;
 }
 
 
