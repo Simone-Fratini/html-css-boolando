@@ -13,22 +13,22 @@
 
             <nav id="nav-category">
                 <ul class="d-flex gap-10 cl-white">
-                    <li>Donna</li>
-                    <li>Uomo</li>
-                    <li>Bambini</li>
+                    <li><a href="#">Donna</a></li>
+                    <li><a href="#">Uomo</a></li>
+                    <li><a href="#">Bambini</a></li>
                     
                 </ul>
             </nav>
 
             <div class="logo">
-                <img src="img/boolean-logo.png" alt="logo">
+                <a href="#"><img src="img/boolean-logo.png" alt="logo"></a>
             </div>
 
             <nav>
                 <ul class="d-flex gap-10">
-                    <li class="cl-white"><i class="fa-regular fa-user"></i></li>
-                    <li class="cl-white"><i class="fa-regular fa-heart"></i></li>
-                    <li class="cl-white"></i><i class="fa-solid fa-bag-shopping"></i></li>
+                    <a href="#"><li class="cl-white"><i class="fa-regular fa-user"></i></li></a>
+                    <a href="#"><li class="cl-white"><i class="fa-regular fa-heart"></i></li></a>
+                    <a href="#"><li class="cl-white"></i><i class="fa-solid fa-bag-shopping"></i></li></a>
                 </ul>
             </nav>
         </div>
@@ -39,8 +39,9 @@
         <div class="container d-flex row">
 
             <div class="item col">
-                <img src="img/1.webp" alt="pd1">
-                <div class="text-small">Levi's</div>
+                <img class="first-image" src="img/1.webp" alt="pd1">
+                <a href="firstproduct.html"><img class="second-image" src="img/1b.webp" alt="pd1"></a>
+                <a href="firstproduct.html"><div class="text-small">Levi's</div></a>
                 <div><strong class="upper-case">relaxed fit tee unisex</strong></div>
                 <span class="text-small cl-red bold">14,99 &euro;</span>
                 <span class="text-small"> <s>29,99 &euro;</s></span>
@@ -55,6 +56,7 @@
 
             <div class="item col">
                 <img src="img/2.webp" alt="pd2">
+                <img class="second-image" src="img/2b.webp" alt="pd2">
                 <div class="text-small">Guess</div>
                 <div><strong class="upper-case">roses tee</strong></div>
                 <span class="text-small cl-red bold">20,99 &euro;</span>
@@ -69,6 +71,7 @@
 
             <div class="item col">
                 <img src="img/3.webp" alt="pd3">
+                <img class="second-image" src="img/3b.webp" alt="pd3">
                 <div class="text-small">Come Zucchero Filato</div>
                 <div><strong class="upper-case">voglia di colori pastello</strong></div>
                 <span class="text-small cl-red bold">129,99 &euro;</span>
@@ -83,6 +86,7 @@
 
             <div class="item col">
                 <img src="img/4.webp" alt="pd4">
+                <img class="second-image" src="img/4b.webp" alt="pd4">
                 <div class="text-small">Levi's</div>
                 <div><strong class="upper-case">tee unisex</strong></div>
                 <span class="text-small cl-red bold">14,99 &euro;</span>
@@ -98,6 +102,7 @@
 
             <div class="item col">
                 <img src="img/5.webp" alt="pd5">
+                <img class="second-image" src="img/5b.webp" alt="pd5">
                 <div class="text-small">Maya Deluxe</div>
                 <div><strong class="upper-case">stripe bodice</strong></div>
                 <span class="text-small cl-red bold">99,99 &euro;</span>
@@ -108,6 +113,7 @@
 
             <div class="item col">
                 <img src="img/6.webp" alt="pd6">
+                <img class="second-image" src="img/6b.webp" alt="pd6">
                 <div class="text-small">Esprit</div>
                 <div><strong class="upper-case">maglione - black</strong></div>
                 <span class="text-small cl-red bold">29,99 &euro;</span>
@@ -126,24 +132,37 @@
     </main>
 
     <footer>
-        <div class="max-width d-flex cl-white d-column">
+        <div class="max-width d-flex cl-white content-center height100">
 
             <div>
-                <div>
+                <div class="bold">
                     Booleando s.r.l
                 </div>
 
                 <div class="d-flex">
-                    <ul class="d-flex">
-                        <li><a href="">Informazioni legali</a></li>
-                        <li><a href="">Informativa sulla privacy</a></li>
-                        <li><a href="">Diritto di recesso</a></li>
+                    <ul class="d-flex gap-10 paddingT-5 text-small">
+                        <li><a href="#">Informazioni legali</a></li>
+                        <li><a href="#">Informativa sulla privacy</a></li>
+                        <li><a href="#">Diritto di recesso</a></li>
                     </ul>
                 </div>
 
             </div>
 
-            <div>
+            <div class="item-center d-col">
+                <div class="text-center text-small">
+                    Trovaci anche su
+                </div>
+
+                <div class="d-flex">
+                    <ul class="d-flex gap-10 paddingT-5">
+                        <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-youtube"></i></a></li>
+                    </ul>
+                </div>
 
             </div>
 

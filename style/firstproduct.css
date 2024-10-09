@@ -38,6 +38,20 @@
     color: var(--color-red);
 }
 
+.bg-orange {
+    background-color: var(--color-orange);
+}
+
+.bg-red {
+    background-color: var(--color-red);
+    padding: 0 5px;
+}
+
+.bg-green {
+    background-color: var(--color-green);
+    padding: 0 5px;
+}
+
 .debug {
     border: 1px solid red;
 }
@@ -56,19 +70,6 @@ ul {
     margin: 0 auto;
 }
 
-.bg-orange {
-    background-color: var(--color-orange);
-}
-
-.bg-red {
-    background-color: var(--color-red);
-    padding: 0 5px;
-}
-
-.bg-green {
-    background-color: var(--color-green);
-    padding: 0 5px;
-}
 
 .d-flex {
     display: flex;
@@ -79,16 +80,6 @@ ul {
     gap: 15px;
 }
 
-.col {
-    width: calc((100% - 30px) / 3);
-    position: relative;
-}
-
-.discount{
-    position: absolute;
-    top: 80%;
-
-}
 
 .col img{
     width: 100%;
@@ -98,30 +89,6 @@ ul {
 header{
     height: 50px;
 }
-
-
-
-.item {
-    position: relative;
-}
-
-.second-image {
-    width: 100%;
-    height: auto;
-    transition: opacity 0.4s ease;
-}
-
-.second-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-}
-
-.item:hover .second-image {
-    opacity: 1;
-}
-
 
 .width100{
     width: 100%;
@@ -145,20 +112,6 @@ main{
     max-width: 1200px;
 }
 
-.heart{
-    background: #ffffff;
-    padding: 7px 7px;
-    width: 30px;
-    position: absolute;
-    top: 8%;
-    right: 0%;
-    transition: color 0.3 ease;
-    cursor: pointer;
-}
-
-.heart:hover{
-    color: var(--color-red);
-}
 
 footer{
     background-color: var(--color-black);
@@ -172,9 +125,6 @@ footer{
 .paddingT-5{
     padding-top: 5px;
 }
-
-
-
 
 .item-center {
     justify-content: center;
